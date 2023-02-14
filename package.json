@@ -17,5 +17,12 @@
   ],
   "peerDependencies": {
     "koishi": "^4.11.6"
+  },
+  "dependencies": {
+    "oicq": "^2.3.1"
+  },
+  "devDependencies": {
+    "@koishijs/client": "^5.3.3",
+    "@koishijs/plugin-console": "^5.3.3"
   }
 }
