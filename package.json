@@ -15,6 +15,9 @@
     "koishi",
     "plugin"
   ],
+  "koishi": {
+    "hidden": true
+  },
   "peerDependencies": {
     "koishi": "^4.11.6"
   },

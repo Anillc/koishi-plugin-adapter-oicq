@@ -1,8 +1,9 @@
+import { Client, Message } from 'oicq'
 import { OICQBot } from './bot'
 
 declare module '@satorijs/satori' {
   interface Session {
-      oicq
+      oicq: Message & { client: Client }
   }
 }
 
